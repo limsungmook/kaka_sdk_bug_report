@@ -1,0 +1,11 @@
+--- kakao.original.js	2019-07-18 10:53:27.000000000 +0900
++++ kakao.fixed.js	2019-07-18 10:53:21.000000000 +0900
+@@ -4784,7 +4784,7 @@
+     }, {}], 25: [function (require, module, exports) {
+       module.exports = function () {
+         (function (O, d, q, L, l, I) {
+-          var b = this;var o = Math.floor(Math.random() * 10000);var r = Function.prototype;var R = /^((http.?:)\/\/([^:\/\s]+)(:\d+)*)/;var S = /[\-\w]+\/\.\.\//;var G = /([^:])\/\//g;var J = "";var p = {};var N = O.easyXDM;var V = "easyXDM_";var F;var z = false;var j;var i;function D(Y, aa) {
++          var b = window;var o = Math.floor(Math.random() * 10000);var r = Function.prototype;var R = /^((http.?:)\/\/([^:\/\s]+)(:\d+)*)/;var S = /[\-\w]+\/\.\.\//;var G = /([^:])\/\//g;var J = "";var p = {};var N = O.easyXDM;var V = "easyXDM_";var F;var z = false;var j;var i;function D(Y, aa) {
+             var Z = _typeof(Y[aa]);return Z == "function" || !!(Z == "object" && Y[aa]) || Z == "unknown";
+           }function v(Y, Z) {
+             return !!(_typeof(Y[Z]) == "object" && Y[Z]);
